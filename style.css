@@ -1,0 +1,32 @@
+body {
+    color: #4C5270;
+    background-color: #BCECE0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 3em 1em;
+    text-align: justify;
+}
+
+h1,
+h2 {
+    color: #F652A0;
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid #36EEE0;
+}
+
+a {
+    color: rgb(15, 45, 110);
+}
