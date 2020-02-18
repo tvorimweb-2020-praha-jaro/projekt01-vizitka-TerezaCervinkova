@@ -6,19 +6,43 @@ body {
     margin: 0 auto;
     max-width: 50em;
     line-height: 1.5;
-    padding: 3em 1em;
+    padding: 0 1em;
     text-align: justify;
+}
+
+.hlavicka {
+    background-image: url(Krkonoše.jpg);
+    background-size: cover;
+    padding: 90px 20px;
+    overflow: auto;
+    margin: 0;
+}
+
+.hlavicka img {
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid rgb(151, 158, 158);
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 40px;
 }
 
 h1,
 h2 {
-    color: #F652A0;
     font-family: 'Lemonada', cursive;
     font-weight: bold;
 }
 
 h1 {
+    color: #4C5270;
     text-align: center;
+    display: inline-block;
+}
+
+h2 {
+    color: #F652A0;
+    clear: left;
 }
 
 img {
