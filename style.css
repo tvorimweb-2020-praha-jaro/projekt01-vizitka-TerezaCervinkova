@@ -1,56 +1,89 @@
 body {
-    color: #4C5270;
-    background-color: #BCECE0;
+    color: #4E4F50;
+    background-color: #E7D2CC;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    margin: 0 auto;
-    max-width: 50em;
+    font-size: 16px;
     line-height: 1.5;
-    padding: 0 1em;
     text-align: justify;
+    margin: 0;
+    padding-bottom: 60px;
 }
 
 .hlavicka {
-    background-image: url(Krkonoše.jpg);
+    background-image: url(snezka.jpg);
     background-size: cover;
-    padding: 90px 20px;
-    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 30px;
     margin: 0;
-}
-
-.hlavicka img {
-    float: left;
-    width: 20%;
-    border-radius: 50%;
-    border: 2px solid rgb(151, 158, 158);
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 40px;
+    overflow: auto;
+    text-align: center;
 }
 
 h1,
 h2 {
     font-family: 'Lemonada', cursive;
     font-weight: bold;
+    padding-top: 15px;
 }
 
 h1 {
-    color: #4C5270;
-    text-align: center;
-    display: inline-block;
+    color: #282425;
+    font-size: 60px;
 }
 
 h2 {
-    color: #F652A0;
-    clear: left;
+    color: #4E4F50;
 }
 
-img {
-    width: 20%;
-    border-radius: 50%;
-    border: 2px solid #36EEE0;
+.omne {
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 0 1em;
 }
 
 a {
     color: rgb(15, 45, 110);
+}
+
+.kontakt {
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 0 1em;
+}
+
+.kontakt img {
+    float: right;
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid rgb(151, 158, 158);
+    margin-left: 40px;
+    display: block;
+}
+
+.menu {
+    background-color: #746C70;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu a {
+    color: thistle;
+    padding: 20px 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #C0C0C0;
+    color: #6C6A61;
 }
